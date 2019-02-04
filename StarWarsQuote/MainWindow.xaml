@@ -15,7 +15,7 @@
         </ImageBrush>
     </Window.Background>
     <DockPanel LastChildFill="False">        
-            <TextBox  DockPanel.Dock="Top" Name ="SWQuoteBox" TextWrapping="Wrap" Height="100" Width="300" Margin ="10px"  BorderBrush="Black" BorderThickness="3" Padding="5">
+            <TextBox  IsReadOnly="True" DockPanel.Dock="Top" Name ="SWQuoteBox" TextWrapping="Wrap" Height="100" Width="300" Margin ="10px"  BorderBrush="Black" BorderThickness="3" Padding="5">
                 <TextBox.Resources>
                     <Style TargetType="{x:Type Border}">
                         <Setter Property="CornerRadius" Value="8"/>
