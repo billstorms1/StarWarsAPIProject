@@ -49,7 +49,7 @@ namespace StarWarsQuote
                 }
             }
 
-            var result = JObject.Parse(content).SelectToken("starWarsQuote").ToString(); ;
+            var result = JObject.Parse(content).SelectToken("starWarsQuote").ToString();
             return result;
         }
     }
